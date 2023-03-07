@@ -9,6 +9,8 @@ body {
   background-color: #b4eafb;
   border-radius: 10px;
   font-size: 30px;
+  position: absolute;
+  left: 200px;
 }
 
 button {
@@ -20,11 +22,45 @@ button {
   color: black;
   width: 30px;
   border-radius: 3px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
 }
 
 .ok {
   background-color: #28a745;
   color: white;
+  position: absolute;
+  bottom: 0px;
+  left: 280px;
 }
 
 /* sem přijdou tvoje styly */
+
+.pomoc {
+  width: 300px;
+  height: 100px;
+  border: 15px double #08a8a5;
+  background-color: #780434;
+  border-radius: 10px;
+  font-size: 30px;
+  position: sticky;
+  top: 10px;
+  z-index: 1;
+}
+
+.ano {
+  background-color: #28a745;
+  color: white;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+.ne {
+  background-color: #e31a08;
+  color: white;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}

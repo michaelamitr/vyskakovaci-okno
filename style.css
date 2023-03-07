@@ -64,3 +64,16 @@ button {
   bottom: 0px;
   right: 0px;
 }
+
+.alignright {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+.alignrightandmove {
+  position: sticky;
+  top: 10px;
+}
+
+/* Musela jsem dát víc divů s nově nadefinovanými třídami s novou position, aby se mi podařilo tohle "vyskakovací okno" zachovat sticky, ale zarovnat do prava. */
